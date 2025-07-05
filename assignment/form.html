@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+
+
+#one{
+    text-align: left;
+}
+
+body{
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    width: 21%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    margin-bottom: 30px;
+}
+
+.hi{
+    width: 300px;
+}
+.hii{
+    margin-left: 200px;
+}
+h1{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <form>
+         <h1>Feedback</h1>
+         <label for="Name">
+           <b> Name</b><br><input class="hi" type="text" id="one" name="name">
+         </label><br>
+         <label for="Email"><br>
+           <b> Email</b><br><input class="hi" type="text" id="2" name="Email">
+         </label><br>
+         <label for="password"><br>
+           <b> Password </b> <br><input class="hi" type="password" id="3" name="password">
+         </label><br>
+         <p><b>Would you recomend us?</b></p>
+         <label for="yes">
+         Yes<input  type="radio" id="4" ></label>
+         <label for="No">
+         No<input type="radio" id="5" ></label>
+         <p><b>Topics of interest</b></p>
+         <label for="HTML">
+         HTML<input type="checkbox" id="6" ></label>
+         <label for="CSS">
+         CSS<input type="checkbox" id="7" ></label>
+         <label for="JS">
+         JS<input type="checkbox" id="8" ></label><br><br>
+        <label for="select" ><b>Satisfaction</b></label><br>
+         <select class="hi">
+            <option value="">select....</option>
+            <option value="excellent">excellent</option>
+             <option value="good">good</option>
+              <option value="bad">bad</option>
+         </select><br><br>
+         <label for=""><b>Comment</b></label><br>
+         <textarea class="hi" name="oii" id="9" placeholder="your feedback"></textarea>
+         <br><br>
+         <label for=""><b>Upload Screenshot</b></label><br>
+         <input type="file"><br>
+         <br>
+         <input style="background-color: green ; color: white;" type="submit" >
+         <input style= "background-color: red; color: white;" class="hii" type="reset">
+
+         
+         
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+} 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 234, 238);
+    margin: 0;
+}
+.one{
+    display: flex;
+    background-color: black;
+    margin: 0;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+.active{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 900px;
+    margin-top: 25px;   
+}
+li{
+    margin-left: 30px;
+}
+.iphone{
+    height: 260px ;
+    width: 250px;
+    /* margin: 0; */
+    border-radius: 20px;
+    padding: 17px;
+}
+.two{
+    display: flex;
+}
+.product{
+    margin: 7.5px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(123, 121, 121);
+    height: 450px;
+    background-color:rgb(229, 226, 226);
+    position: relative;
+}
+button{
+    width: 80%;
+    height: 30px;
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+h4{
+    margin-left: 5px;
+}
+p{
+    margin-left: 5px;
+}
+.product:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    /* width: 1500px; */
+    border-collapse: collapse;
+    padding: 15px;
+}
+table{
+       width: 100%;
+}
+.three{
+    padding: 15px;
+}
+th{
+    text-align: left;
+}
+td{
+    background-color: white;
+}
+.pur{
+    position:absolute;
+    top: 1px;
+    border-radius:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: yellow; 
+}
+.four{
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    /* flex-direction: row; */
+    background-color: white;
+    padding: 10px;
+}
+.review{
+    background-color: rgb(239, 237, 237);
+    margin-left: 10px;
+    box-shadow: 0px 1px 1px 0px rgb(146, 144, 144);
+    border-radius: 5px;
+}
+footer{
+    margin: 0;
+    padding: 20px;
+     text-align: center;
+    background-color: rgb(71, 74, 78);
+    color: aliceblue;
+}
+.cart{
+    background-color: red;
+    width: fit-content;
+    position: fixed;
+    right: 10px;
+    font-size: 40px;
+    border-radius: 50px;
+    top: 50px;
+}
+#section1{
+    margin-top: 100px;
+}
+.help{
+    background-color: aqua;
+    color: white;
+    width: fit-content;
+    position: fixed;
+    bottom: 55px;
+    margin: 0;
+}
+
